@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IG Burguer</title>
+    <!-- Ícones -->
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+     />
+     <!-- Estilos -->  
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#">
+                    <img src="img/degrade2.png" alt="Logo Disk Burguer" class="logo">
+                </a>
+                <ul class="navbar-items">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Preços</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#" class="default-btn">Entrar</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class="main-banner">
+                <h1>IG Burguer</h1>
+                <p>Os melhores hamburguers para seu evento!</p>
+            </div>
+            <section class="services-container">
+                <ul>
+                    <li>
+                        <i class="fas fa-hamburger"></i>
+                        <h3>Qualidade</h3>
+                        <p>Garantimos um serviço de alta qualidade, transformando eventos especiais em experiências memoráveis. Nossa equipe é treinada para oferecer hambúrgueres suculentos, preparados com ingredientes frescos e selecionados. Além disso, nos orgulhamos da variedade do nosso cardápio, que atende a todos os gostos e preferências, desde os clássicos até opções vegetarianas e veganas.</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-comments"></i>
+                        <h3>Atendimento ao Cliente</h3>
+                        <p>A comunicação transparente e eficiente é a nossa prioridade. Desde o primeiro contato até a conclusão do evento, estamos disponíveis para atender todas as necessidades e dúvidas dos nossos clientes. Oferecemos um atendimento personalizado, adaptando nossos serviços às especificações de cada evento. A nossa equipe está sempre pronta para ouvir, sugerir e garantir que todas as expectativas sejam superadas.</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Segurança</h3>
+                        <p>A segurança é um dos pilares do nosso serviço. Cumprimos rigorosamente todas as normas sanitárias e de segurança alimentar para garantir um ambiente seguro e saudável para todos. Nossa equipe é treinada em práticas de higiene e manuseio de alimentos, assegurando que cada hambúrguer seja preparado e servido com o máximo cuidado e responsabilidade.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="pricing-container">
+                <h2>Planos e preços</h2>
+                <p>Selecione o plano que atende suas necessidades</p>
+                <div class="plans-container">
+                  <div class="plan">
+                    <ul>
+                        <li class="price">3.000,00</li>
+                        <li class="plan-name">Júnior: Eventos até 100 pessoas</li>
+                        <li>Inclui: X-Burguer, X-Salada, X-Bacon.</li>
+                        <li class="plan-btn">Saber mais</li>
+                    </ul>
+                  </div>
+                  <div class="plan">
+                    <ul>
+                        <li class="price">6.000,00</li>
+                        <li class="plan-name">Pleno: Eventos até 200 pessoas</li>
+                        <li>Inclui: X-Burguer, X-Salada, X-Bacon e Fritas.</li>
+                        <li class="plan-btn">Saber mais</li>
+                    </ul>
+                  </div>
+                  <div class="plan">
+                    <ul>
+                        <li class="price">10.000,00</li>
+                        <li class="plan-name">Sênior: Eventos até 300 pessoas</li>
+                        <li>Inclui: X-Burguer, X-Salada, X-Bacon, Batatas Fritas e Sobremesa.</li>
+                        <li class="plan-btn">Saber mais</li>
+                    </ul>
+                  </div>
+                </div>
+            </section>
+            <section class="event-container">
+                <h2>Qual plano você gostaria para seu evento?</h2>
+                <p>Verifique se a data está disponível</p>
+                <form>
+                    <input type="date" nome="date-event" id="date-event"/>
+                    <input type="submit" value="Procurar data">
+                </form>
+            </section>
+            <section class="contact-container">
+                <h2>Mande uma mensagem e tire suas duvidas</h2>
+                <p>Envie sua mensagem, em até 24 horas nossa equipe entrará em contato</p>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Seu nome">
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                    <textarea name="message" id="message" placeholder="Descreva suas duvidas ou sujestões"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>IG Burguer @ 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
